@@ -1,6 +1,6 @@
 depthimage_to_laserscan_for_zed2i
 =======================
-original repository is https://github.com/ros-perception/depthimage_to_laserscan
+original repository: https://github.com/ros-perception/depthimage_to_laserscan
 
 A ROS 2 driver to convert a depth image to a laser scan for use with navigation and localization.
 
