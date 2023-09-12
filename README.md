@@ -1,4 +1,4 @@
-depthimage_to_laserscan
+depthimage_to_laserscan_for_zed2i
 =======================
 
 A ROS 2 driver to convert a depth image to a laser scan for use with navigation and localization.
