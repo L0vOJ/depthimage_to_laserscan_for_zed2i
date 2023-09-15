@@ -58,7 +58,7 @@ DepthImageToLaserScanROS::DepthImageToLaserScanROS(const rclcpp::NodeOptions & o
     this->create_subscription<sensor_msgs::msg::Image>("depth", qos,
       std::bind(&DepthImageToLaserScanROS::depthCb, this, std::placeholders::_1));
 
-  scan_pub_ = this->create_publisher<sensor_msgs::msg::LaserScan>("/heroehs/gemini/scan", qos);
+  scan_pub_ = this->create_publisher<sensor_msgs::msg::LaserScan>("/scan", qos);
 
   float scan_time = this->declare_parameter("scan_time", 0.033);
 
